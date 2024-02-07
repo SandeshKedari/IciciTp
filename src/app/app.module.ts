@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AllPolicyRenewalComponent } from './all-policy-renewal/all-policy-renewal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AllPolicyRenewalComponent
   ],
   imports: [
     BrowserModule,
